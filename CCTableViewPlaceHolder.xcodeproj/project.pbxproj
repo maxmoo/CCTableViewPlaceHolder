@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA9382711DFF8F2C00FD87D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9382701DFF8F2C00FD87D5 /* main.m */; };
+		AA9382741DFF8F2C00FD87D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9382731DFF8F2C00FD87D5 /* AppDelegate.m */; };
+		AA9382771DFF8F2C00FD87D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9382761DFF8F2C00FD87D5 /* ViewController.m */; };
+		AA93827C1DFF8F2C00FD87D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA93827B1DFF8F2C00FD87D5 /* Assets.xcassets */; };
+		AA93827F1DFF8F2C00FD87D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93827D1DFF8F2C00FD87D5 /* LaunchScreen.storyboard */; };
+		AA93828A1DFF8F2C00FD87D5 /* CCTableViewPlaceHolderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9382891DFF8F2C00FD87D5 /* CCTableViewPlaceHolderTests.m */; };
+		AA9382951DFF8F2C00FD87D5 /* CCTableViewPlaceHolderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9382941DFF8F2C00FD87D5 /* CCTableViewPlaceHolderUITests.m */; };
+		AA9382AA1DFFCCB400FD87D5 /* placeholder_remote.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9382A61DFFCCB400FD87D5 /* placeholder_remote.png */; };
+		AA9382AB1DFFCCB400FD87D5 /* placeholder_remote@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9382A71DFFCCB400FD87D5 /* placeholder_remote@2x.png */; };
+		AA9382AC1DFFCCB400FD87D5 /* UITableView+CCTableViewPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9382A91DFFCCB400FD87D5 /* UITableView+CCTableViewPlaceHolder.m */; };
+		AA9382AF1DFFCD4500FD87D5 /* placeholder_instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9382AD1DFFCD4500FD87D5 /* placeholder_instagram.png */; };
+		AA9382B01DFFCD4500FD87D5 /* placeholder_instagram@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9382AE1DFFCD4500FD87D5 /* placeholder_instagram@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA9382861DFF8F2C00FD87D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9382641DFF8F2C00FD87D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA93826B1DFF8F2C00FD87D5;
+			remoteInfo = CCTableViewPlaceHolder;
+		};
+		AA9382911DFF8F2C00FD87D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9382641DFF8F2C00FD87D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA93826B1DFF8F2C00FD87D5;
+			remoteInfo = CCTableViewPlaceHolder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA93826C1DFF8F2C00FD87D5 /* CCTableViewPlaceHolder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCTableViewPlaceHolder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9382701DFF8F2C00FD87D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA9382721DFF8F2C00FD87D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA9382731DFF8F2C00FD87D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA9382751DFF8F2C00FD87D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA9382761DFF8F2C00FD87D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA93827B1DFF8F2C00FD87D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA93827E1DFF8F2C00FD87D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA9382801DFF8F2C00FD87D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9382851DFF8F2C00FD87D5 /* CCTableViewPlaceHolderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCTableViewPlaceHolderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9382891DFF8F2C00FD87D5 /* CCTableViewPlaceHolderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTableViewPlaceHolderTests.m; sourceTree = "<group>"; };
+		AA93828B1DFF8F2C00FD87D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9382901DFF8F2C00FD87D5 /* CCTableViewPlaceHolderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCTableViewPlaceHolderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9382941DFF8F2C00FD87D5 /* CCTableViewPlaceHolderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTableViewPlaceHolderUITests.m; sourceTree = "<group>"; };
+		AA9382961DFF8F2C00FD87D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9382A61DFFCCB400FD87D5 /* placeholder_remote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder_remote.png; sourceTree = "<group>"; };
+		AA9382A71DFFCCB400FD87D5 /* placeholder_remote@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder_remote@2x.png"; sourceTree = "<group>"; };
+		AA9382A81DFFCCB400FD87D5 /* UITableView+CCTableViewPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CCTableViewPlaceHolder.h"; sourceTree = "<group>"; };
+		AA9382A91DFFCCB400FD87D5 /* UITableView+CCTableViewPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CCTableViewPlaceHolder.m"; sourceTree = "<group>"; };
+		AA9382AD1DFFCD4500FD87D5 /* placeholder_instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder_instagram.png; sourceTree = "<group>"; };
+		AA9382AE1DFFCD4500FD87D5 /* placeholder_instagram@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder_instagram@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA9382691DFF8F2C00FD87D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9382821DFF8F2C00FD87D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA93828D1DFF8F2C00FD87D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA9382631DFF8F2C00FD87D5 = {
+			isa = PBXGroup;
+			children = (
+				AA93826E1DFF8F2C00FD87D5 /* CCTableViewPlaceHolder */,
+				AA9382881DFF8F2C00FD87D5 /* CCTableViewPlaceHolderTests */,
+				AA9382931DFF8F2C00FD87D5 /* CCTableViewPlaceHolderUITests */,
+				AA93826D1DFF8F2C00FD87D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA93826D1DFF8F2C00FD87D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA93826C1DFF8F2C00FD87D5 /* CCTableViewPlaceHolder.app */,
+				AA9382851DFF8F2C00FD87D5 /* CCTableViewPlaceHolderTests.xctest */,
+				AA9382901DFF8F2C00FD87D5 /* CCTableViewPlaceHolderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA93826E1DFF8F2C00FD87D5 /* CCTableViewPlaceHolder */ = {
+			isa = PBXGroup;
+			children = (
+				AA9382A51DFFCCB400FD87D5 /* CCTableViewPlaceHolder */,
+				AA9382721DFF8F2C00FD87D5 /* AppDelegate.h */,
+				AA9382731DFF8F2C00FD87D5 /* AppDelegate.m */,
+				AA9382751DFF8F2C00FD87D5 /* ViewController.h */,
+				AA9382761DFF8F2C00FD87D5 /* ViewController.m */,
+				AA93827B1DFF8F2C00FD87D5 /* Assets.xcassets */,
+				AA93827D1DFF8F2C00FD87D5 /* LaunchScreen.storyboard */,
+				AA9382801DFF8F2C00FD87D5 /* Info.plist */,
+				AA93826F1DFF8F2C00FD87D5 /* Supporting Files */,
+			);
+			path = CCTableViewPlaceHolder;
+			sourceTree = "<group>";
+		};
+		AA93826F1DFF8F2C00FD87D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA9382701DFF8F2C00FD87D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA9382881DFF8F2C00FD87D5 /* CCTableViewPlaceHolderTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9382891DFF8F2C00FD87D5 /* CCTableViewPlaceHolderTests.m */,
+				AA93828B1DFF8F2C00FD87D5 /* Info.plist */,
+			);
+			path = CCTableViewPlaceHolderTests;
+			sourceTree = "<group>";
+		};
+		AA9382931DFF8F2C00FD87D5 /* CCTableViewPlaceHolderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9382941DFF8F2C00FD87D5 /* CCTableViewPlaceHolderUITests.m */,
+				AA9382961DFF8F2C00FD87D5 /* Info.plist */,
+			);
+			path = CCTableViewPlaceHolderUITests;
+			sourceTree = "<group>";
+		};
+		AA9382A51DFFCCB400FD87D5 /* CCTableViewPlaceHolder */ = {
+			isa = PBXGroup;
+			children = (
+				AA9382AD1DFFCD4500FD87D5 /* placeholder_instagram.png */,
+				AA9382AE1DFFCD4500FD87D5 /* placeholder_instagram@2x.png */,
+				AA9382A61DFFCCB400FD87D5 /* placeholder_remote.png */,
+				AA9382A71DFFCCB400FD87D5 /* placeholder_remote@2x.png */,
+				AA9382A81DFFCCB400FD87D5 /* UITableView+CCTableViewPlaceHolder.h */,
+				AA9382A91DFFCCB400FD87D5 /* UITableView+CCTableViewPlaceHolder.m */,
+			);
+			path = CCTableViewPlaceHolder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA93826B1DFF8F2C00FD87D5 /* CCTableViewPlaceHolder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9382991DFF8F2C00FD87D5 /* Build configuration list for PBXNativeTarget "CCTableViewPlaceHolder" */;
+			buildPhases = (
+				AA9382681DFF8F2C00FD87D5 /* Sources */,
+				AA9382691DFF8F2C00FD87D5 /* Frameworks */,
+				AA93826A1DFF8F2C00FD87D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCTableViewPlaceHolder;
+			productName = CCTableViewPlaceHolder;
+			productReference = AA93826C1DFF8F2C00FD87D5 /* CCTableViewPlaceHolder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA9382841DFF8F2C00FD87D5 /* CCTableViewPlaceHolderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA93829C1DFF8F2C00FD87D5 /* Build configuration list for PBXNativeTarget "CCTableViewPlaceHolderTests" */;
+			buildPhases = (
+				AA9382811DFF8F2C00FD87D5 /* Sources */,
+				AA9382821DFF8F2C00FD87D5 /* Frameworks */,
+				AA9382831DFF8F2C00FD87D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9382871DFF8F2C00FD87D5 /* PBXTargetDependency */,
+			);
+			name = CCTableViewPlaceHolderTests;
+			productName = CCTableViewPlaceHolderTests;
+			productReference = AA9382851DFF8F2C00FD87D5 /* CCTableViewPlaceHolderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA93828F1DFF8F2C00FD87D5 /* CCTableViewPlaceHolderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA93829F1DFF8F2C00FD87D5 /* Build configuration list for PBXNativeTarget "CCTableViewPlaceHolderUITests" */;
+			buildPhases = (
+				AA93828C1DFF8F2C00FD87D5 /* Sources */,
+				AA93828D1DFF8F2C00FD87D5 /* Frameworks */,
+				AA93828E1DFF8F2C00FD87D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9382921DFF8F2C00FD87D5 /* PBXTargetDependency */,
+			);
+			name = CCTableViewPlaceHolderUITests;
+			productName = CCTableViewPlaceHolderUITests;
+			productReference = AA9382901DFF8F2C00FD87D5 /* CCTableViewPlaceHolderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA9382641DFF8F2C00FD87D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = maxmoo;
+				TargetAttributes = {
+					AA93826B1DFF8F2C00FD87D5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TF253L9KC9;
+						ProvisioningStyle = Automatic;
+					};
+					AA9382841DFF8F2C00FD87D5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TF253L9KC9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA93826B1DFF8F2C00FD87D5;
+					};
+					AA93828F1DFF8F2C00FD87D5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TF253L9KC9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA93826B1DFF8F2C00FD87D5;
+					};
+				};
+			};
+			buildConfigurationList = AA9382671DFF8F2C00FD87D5 /* Build configuration list for PBXProject "CCTableViewPlaceHolder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA9382631DFF8F2C00FD87D5;
+			productRefGroup = AA93826D1DFF8F2C00FD87D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA93826B1DFF8F2C00FD87D5 /* CCTableViewPlaceHolder */,
+				AA9382841DFF8F2C00FD87D5 /* CCTableViewPlaceHolderTests */,
+				AA93828F1DFF8F2C00FD87D5 /* CCTableViewPlaceHolderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA93826A1DFF8F2C00FD87D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9382AB1DFFCCB400FD87D5 /* placeholder_remote@2x.png in Resources */,
+				AA93827F1DFF8F2C00FD87D5 /* LaunchScreen.storyboard in Resources */,
+				AA9382AF1DFFCD4500FD87D5 /* placeholder_instagram.png in Resources */,
+				AA9382AA1DFFCCB400FD87D5 /* placeholder_remote.png in Resources */,
+				AA93827C1DFF8F2C00FD87D5 /* Assets.xcassets in Resources */,
+				AA9382B01DFFCD4500FD87D5 /* placeholder_instagram@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9382831DFF8F2C00FD87D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA93828E1DFF8F2C00FD87D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA9382681DFF8F2C00FD87D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9382771DFF8F2C00FD87D5 /* ViewController.m in Sources */,
+				AA9382741DFF8F2C00FD87D5 /* AppDelegate.m in Sources */,
+				AA9382711DFF8F2C00FD87D5 /* main.m in Sources */,
+				AA9382AC1DFFCCB400FD87D5 /* UITableView+CCTableViewPlaceHolder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9382811DFF8F2C00FD87D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA93828A1DFF8F2C00FD87D5 /* CCTableViewPlaceHolderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA93828C1DFF8F2C00FD87D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9382951DFF8F2C00FD87D5 /* CCTableViewPlaceHolderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA9382871DFF8F2C00FD87D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA93826B1DFF8F2C00FD87D5 /* CCTableViewPlaceHolder */;
+			targetProxy = AA9382861DFF8F2C00FD87D5 /* PBXContainerItemProxy */;
+		};
+		AA9382921DFF8F2C00FD87D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA93826B1DFF8F2C00FD87D5 /* CCTableViewPlaceHolder */;
+			targetProxy = AA9382911DFF8F2C00FD87D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA93827D1DFF8F2C00FD87D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA93827E1DFF8F2C00FD87D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA9382971DFF8F2C00FD87D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA9382981DFF8F2C00FD87D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA93829A1DFF8F2C00FD87D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TF253L9KC9;
+				INFOPLIST_FILE = CCTableViewPlaceHolder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.megahealth.CCTableViewPlaceHolder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA93829B1DFF8F2C00FD87D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TF253L9KC9;
+				INFOPLIST_FILE = CCTableViewPlaceHolder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.megahealth.CCTableViewPlaceHolder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA93829D1DFF8F2C00FD87D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TF253L9KC9;
+				INFOPLIST_FILE = CCTableViewPlaceHolderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.megahealth.CCTableViewPlaceHolderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCTableViewPlaceHolder.app/CCTableViewPlaceHolder";
+			};
+			name = Debug;
+		};
+		AA93829E1DFF8F2C00FD87D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TF253L9KC9;
+				INFOPLIST_FILE = CCTableViewPlaceHolderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.megahealth.CCTableViewPlaceHolderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCTableViewPlaceHolder.app/CCTableViewPlaceHolder";
+			};
+			name = Release;
+		};
+		AA9382A01DFF8F2C00FD87D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TF253L9KC9;
+				INFOPLIST_FILE = CCTableViewPlaceHolderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.megahealth.CCTableViewPlaceHolderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCTableViewPlaceHolder;
+			};
+			name = Debug;
+		};
+		AA9382A11DFF8F2C00FD87D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TF253L9KC9;
+				INFOPLIST_FILE = CCTableViewPlaceHolderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.megahealth.CCTableViewPlaceHolderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCTableViewPlaceHolder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA9382671DFF8F2C00FD87D5 /* Build configuration list for PBXProject "CCTableViewPlaceHolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9382971DFF8F2C00FD87D5 /* Debug */,
+				AA9382981DFF8F2C00FD87D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9382991DFF8F2C00FD87D5 /* Build configuration list for PBXNativeTarget "CCTableViewPlaceHolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA93829A1DFF8F2C00FD87D5 /* Debug */,
+				AA93829B1DFF8F2C00FD87D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA93829C1DFF8F2C00FD87D5 /* Build configuration list for PBXNativeTarget "CCTableViewPlaceHolderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA93829D1DFF8F2C00FD87D5 /* Debug */,
+				AA93829E1DFF8F2C00FD87D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA93829F1DFF8F2C00FD87D5 /* Build configuration list for PBXNativeTarget "CCTableViewPlaceHolderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9382A01DFF8F2C00FD87D5 /* Debug */,
+				AA9382A11DFF8F2C00FD87D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA9382641DFF8F2C00FD87D5 /* Project object */;
+}
